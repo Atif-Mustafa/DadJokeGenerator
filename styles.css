@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+    font-family: monospace;
+}
+
+.main_container
+{
+    background-color: rgba(255,255,255,.3);
+    padding:20px;
+    border-radius: 15px;
+    width: 85%;
+    text-align: center;
+    box-shadow: 0 6px 10px rgba(0,0,0,.3);
+
+    h1{
+        color: darkgreen;
+        font-weight: 700;
+        text-shadow: 3px 2px 2px rgb(93, 91, 91);
+        font-size: 2rem;
+    }
+    
+    #status-joke{
+        color: darkgreen;
+        font-size: 1.8rem;
+        margin: 2rem 0;
+    }
+
+    button{
+        padding: .6rem;
+        color: darkgreen;
+        
+        border-radius: 5px;
+        background: rgba(255,255,255,.4);
+        border-color: rgba(255,255,255,.6);
+        width: 13rem;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
